@@ -1,0 +1,81 @@
+.body{
+    background-image: url("pexels-jess-bailey-designs-743986.jpg");
+  }
+  .journal-container {
+    background-image: url("Stars.jpg");
+    background-size: contain;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .journal-header {
+    /* font-family: ''; */
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #new-entry-btn {
+    background-color: #378aff85;
+    border: none;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+    border-radius: 20px;
+  }
+  
+  #entry-form-container {
+    color: aliceblue;
+    margin-bottom: 20px;
+  }
+  
+  #entry-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #entry-form input[type="text"],
+  #entry-form input[type="date"],
+  #entry-form textarea {
+    color: aliceblue;
+    width: 100%;
+    background-color: #cccccc59;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc13;
+    font-size: 16px;
+  }
+  
+  #entry-form textarea {
+    height: 200px;
+  }
+  
+  #journal-entries {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .journal-entry {
+    color: #378aff85;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .journal-entry h3 {
+    margin-top: 0;
+  }
+  
+  .journal-entry p {
+    margin-bottom: 0;
+  }
