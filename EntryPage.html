@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mayhem</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="SDG.css">
+    <style>
+    h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+    .body {font-family: "Open Sans"}</style>
+  </head>
+  <body>
+    <div class="journal-container">
+      <div class="journal-header">
+        <h1>My Journal</h1>
+        <button id="new-entry-btn">New Entry</button>
+      </div>
+      <div id="entry-form-container" class="hidden">
+        <h2>New Entry</h2>
+        <form id="entry-form">
+          <div>
+            <label for="entry-title">Title</label>
+            <input type="text" id="entry-title" name="entry-title">
+          </div>
+          <div>
+            <label for="entry-date">Date</label>
+            <input type="date" id="entry-date" name="entry-date">
+          </div>
+          <div>
+            <label for="entry-text">Entry</label>
+            <textarea id="entry-text" name="entry-text"></textarea>
+          </div>
+          <button type="submit">Save Entry</button>
+        </form>
+      </div>
+      <div id="journal-entries"></div>
+    </div>
+    <script src="SDG.js"></script>
+  </body>
+</html>
