@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mayhem</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mayhem-gs-style.css">
+    <style>
+    h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+    body {font-family: "Open Sans"}
+    </style>
+</head>
+<body class="">
+    <section class="getstarted">
+        
+        <div class="reduce">
+            <h4><span style="font-size: 40px;">MAYHEM</h4>
+            <h6 class="linespace"><span style="font-family: sans-serif">Mind Journaling</span>.</h6>
+            <br>
+        </div>
+        <div class="content">
+            <h1><span style="font-size: 60px;">For you and your mind</span></h1>
+            <h1></h1>
+            <h6><span style="font-family: sans-serif">We take pride in helping people from all walks of life to achieve mental peace.</span></h6>
+            <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="scrollToSection()">GET STARTED</button></h6>
+        </div>
+    </section>
+    <section class="w3-light-grey" id="home">
+        <div class="w3-bar w3-black w3-hide-small">
+            <a href="#home" class="w3-bar-item w3-button" target=""><i class="fas fa-home"></i></a>
+            <a href="aboutus.html" class="w3-bar-item w3-button" target=""><i class="fas fa-info-circle"></i></a>
+            <a href="#" class="w3-bar-item w3-button" target=""><i class="far fa-newspaper"></i></a>
+            <a href="signup.html" class="w3-bar-item w3-button" target="_blank"><i class="fas fa-user-plus"></i></a>
+            <a href="login.html" class="w3-bar-item w3-button" target="_blank"><i class="fas fa-sign-in-alt"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+        </div>
+            
+          <!-- w3-content defines a container for fixed size centered content, 
+          and is wrapped around the whole page content, except for the footer in this example -->
+          <div class="w3-content" style="max-width:1600px">
+          
+            <!-- Header -->
+            <header class="w3-container w3-center w3-padding-48 w3-white">
+              <h1 class="w3-xxxlarge"><b>MAYHEM</b></h1>
+              <h6>Welcome to the world of Mayhem.</h6>
+              <h6>Here you are free to Journal about your life and read helpful article on Mental Health</h6>
+            </header>
+          
+            <!-- Image header -->
+            <header class="w3-display-container w3-wide" id="home">
+              <img class="image" src="tim-swaan-eOpewngf68w-unsplash.jpg" alt="Fashion Blog" width="100%" height="30%">
+              <div class="w3-display-left w3-padding-large">
+                <h1 class="w3-text-white">Hi Champion!</h1>
+                <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>Start Your Journal</b></h1>
+                <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="window.location.href='SDG.html'">CREATE NEW</button></h6>
+              </div>
+            </header>
+    </section>
+    <script>
+        function scrollToSection() {
+          var section = document.getElementById("home");
+          section.scrollIntoView({ behavior: 'smooth' });
+        }
+        </script>
+</body>
+</html>
