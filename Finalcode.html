@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mayhem</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mayhem-gs-style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+    h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+    body {font-family: "Open Sans"}
+    </style>
+</head>
+<body class="">
+    <section class="getstarted">
+        
+        <div class="reduce">
+            <h4><span style="font-size: 40px;">MAYHEM</h4>
+            <h6 class="linespace"><span style="font-family: sans-serif">Mind Journaling</span>.</h6>
+            <br>
+        </div>
+        <div class="content">
+            <h1><span style="font-size: 60px;">For you and your mind</span></h1>
+            <h1></h1>
+            <h6><span style="font-family: sans-serif">We take pride in helping people from all walks of life to achieve mental peace.</span></h6>
+            <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="scrollToSection()">GET STARTED</button></h6>
+        </div>
+    </section>
+    <section class="w3-light-grey" id="home">
+        <div class="w3-bar w3-black w3-hide-small">
+            <a href="#home" class="w3-bar-item w3-button" target=""><i class="fas fa-home"></i></a>
+            <a href="#video" class="w3-bar-item w3-button" target=""><i class="fas fa-info-circle"></i></a>
+            <a href="#article" class="w3-bar-item w3-button" target="" onclick=""><i class="far fa-play-circle"></i></a>
+            <a href="signup.html" class="w3-bar-item w3-button" target="_blank"><i class="fas fa-user-plus"></i></a>
+            <a href="login.html" class="w3-bar-item w3-button" target="_blank"><i class="fas fa-sign-in-alt"></i></a>
+            <a href="aboutus.html" class="w3-bar-item w3-button"><i class="fas fa-user"></i></a>  
+        </div>
+            
+          <!-- w3-content defines a container for fixed size centered content, 
+          and is wrapped around the whole page content, except for the footer in this example -->
+          <div class="w3-content" style="max-width:1600px">
+          
+            <!-- Header -->
+            <header class="w3-container w3-center w3-padding-48 w3-white">
+              <h1 class="w3-xxxlarge"><b>MAYHEM</b></h1>
+              <h6>Welcome to the world of Mayhem.</h6>
+              <h6>Here you are free to Journal about your life and read helpful article on Mental Health</h6>
+            </header>
+          
+            <!-- Image header -->
+            <header class="w3-display-container w3-wide" id="home">
+              <img class="image" src="tim-swaan-eOpewngf68w-unsplash.jpg" alt="Fashion Blog" width="100%" height="30%">
+              <div class="w3-display-left w3-padding-large">
+                <h1 class="w3-text-white">Hi Champion!</h1>
+                <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>Start Your Journal</b></h1>
+                <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfV14Y448ra_hq--yZ5JTX0cKFQeIEPSBcdzxv_RV50p9G7Bg/viewform'">CREATE NEW</button></h6>
+              </div>
+            </header>
+    </section>
+    <section class="w3-light-grey" id="article" style="background-color: aliceblue;">
+        <div class="w3-bar w3-black w3-hide-small">
+            <h4 style="text-align: center;">YouTube Video</h4>
+        </div>
+        <br>
+        <div class="slide-container"> 
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="-ms-flex-item-align: center;">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ul>
+                <!-- Slides -->
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rkZl2gsLUp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <!--img src="Shuo-Feng-Po-Zhen-Zi-1-4.png" alt="Slide 1" height="500px" width="750px"-->
+                    
+                    <div class="carousel-caption">
+                    <h3>Mental Health</h3>
+                    <p>How to manage your mental health</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lQhpetkwWnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="carousel-caption">
+                    <h3>Slide 2 Title</h3>
+                    <p>Slide 2 description</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WWloIAQpMcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <!--img src="anime-anime-girls-zero-two-darling-in-the-franxx-darling-in-the-franxx-wallpaper-preview (1).jpg" alt="Slide 3" height="500px" width="750px"-->
+                    <div class="carousel-caption">
+                    <h3>Slide 3 Title</h3>
+                    <p>Slide 3 description</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Nz9eAaXRzGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <!--img src="mikasa-ackerman-scarf-shingeki-no-kyojin-anime-girls-wallpaper-preview.jpg" alt="Slide 2" height="500px" width="750px"-->
+                    <div class="carousel-caption">
+                    <h3>Slide 4 Title</h3>
+                    <p>Slide 4 description</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eS_MuaOYBIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <!--img src="images.jfif" alt="Slide 2" height="500px" width="750px"-->
+                    <div class="carousel-caption">
+                    <h3>Slide 5 Title</h3>
+                    <p>Slide 5 description</p>
+                    </div>
+                </div>
+                </div>
+                <!-- Controls -->
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+          <br>
+          <br>
+    </section>
+    <section id="video">
+        <div class="w3-bar w3-black w3-hide-small">
+            <h4 style="text-align: center;">Articles</h4>
+        </div>
+        <br>
+        <div>
+            <div class="w3-container w3-white w3-margin w3-padding-large">
+                <div class="w3-center">
+                  <h3>TITLE HEADING</h3>
+                  <h5>Title description, <span class="w3-opacity">May 2, 2016</span></h5>
+                </div>
+        
+                <!--div class="w3-justify">
+                  <img src="/w3images/girl_hat.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+                  <p><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+                    magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                  <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                  <p class="w3-right"><button class="w3-button w3-black" onclick="window.location.href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5479084/'" id="myBtn"><b>Read More</b> <span class="w3-tag w3-white"></span></button></p>
+                  <p class="w3-clear"></p>                  
+                </div>
+              </div>
+              <hr>
+              <div class="w3-container w3-white w3-margin w3-padding-large">
+                <div class="w3-center">
+                  <h3>Mental health</h3>
+                  <h5>Mental health awareness: The Indian scenario, <span class="w3-opacity">May 2, 2016</span></h5>
+                </div-->
+        
+                <div class="w3-justify">
+                  <img src="nik-shuliahin-BuNWp1bL0nc-unsplash.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+                  <p><strong>Mental Health</strong> is a major concern worldwide and India is not far behind in sharing this. If we evaluate developments in the field of mental health, the pace appears to be slow. Dr. Brock Chisholm, the first Director-General of the World Health Organization (WHO), in 1954, had presciently declared that “without mental health there can be no true physical health.”[1] More than 60 years later, the scenario has not altered substantially. About 14% of the global burden of disease is attributed to neuropsychiatric disorders. The burden of mental disorders is likely to have been underestimated because of inadequate appreciation of the inter-play between mental illness and other health disorders.[2] There remain considerable issues of priority-setting based on the burden of health problems and of addressing inequalities in relation to determinants and solutions for health problems.</p>
+                  <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                  <p class="w3-right"><button class="w3-button w3-black" onclick="window.location.href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5479084/'" id="myBtn"><b>Read More</b> <span class="w3-tag w3-white"></span></button></p>
+                  <p class="w3-clear"></p>                  
+                </div>
+              </div>
+              <hr>
+              <div class="w3-container w3-white w3-margin w3-padding-large">
+                <div class="w3-center">
+                  <h3>TITLE HEADING</h3>
+                  <h5>Title description, <span class="w3-opacity">May 2, 2016</span></h5>
+                </div>
+        
+                <div class="w3-justify">
+                  <img src="/w3images/girl_hat.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+                  <p><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+                    magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                  <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                  <p class="w3-right"><button class="w3-button w3-black" onclick="window.location.href='https://www.medicalnewstoday.com/articles/social-media-and-mental-health'" id="myBtn"><b>Read More</b> <span class="w3-tag w3-white"></span></button></p>
+                  <p class="w3-clear"></p>                  
+                </div>
+              </div>
+              <hr>
+              <div class="w3-container w3-white w3-margin w3-padding-large">
+                <div class="w3-center">
+                  <h3>Youth's prospective on mental health</h3>
+                  <h5>Youth and professional perspectives of mental health resources across eight countries, <span class="w3-opacity">May 2, 2016</span></h5>
+                </div>
+        
+                <div class="w3-justify">
+                  <img src="images.jfif" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+                  <p><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+                    magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                  <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                  <p class="w3-right"><button class="w3-button w3-black" onclick="window.location.href='https://www.sciencedirect.com/science/article/pii/S0190740922000755'" id="myBtn"><b>Read More</b> <span class="w3-tag w3-white"></span></button></p>
+                  <p class="w3-clear"></p>                  
+                </div>
+              </div>
+              <hr>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Mayhem. All rights reserved.</p>
+      </footer>
+    <script>
+        function scrollToSection() {
+          var section = document.getElementById("home");
+          section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+    <!--script>
+        function scrollToSection() {
+          var section = document.getElementById("article");
+          section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
